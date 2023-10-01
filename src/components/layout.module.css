@@ -1,0 +1,188 @@
+.header {
+    background-color: rgb(8, 160, 248);
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0;
+    font-family: sans-serif;
+    padding-left: 0;
+    margin-left: 5px;
+}
+
+.heading {
+    width: inherit;
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.header::before {
+    content: "hi";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    color: rgb(247, 247, 201);
+    padding: 40px;
+    background-color: rgb(247, 247, 201);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.mainContainer {
+    margin: 50px;
+    margin-top: 0;
+}
+
+.mainContainer > p {
+    text-align: justify;
+}
+
+.nav-links {
+    width: 175px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.nav-link-item {
+    padding: 1rem;
+    background-color: rgb(247, 247, 201);
+    border: 2px solid rgb(8, 160, 248);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 10px;
+}
+
+.nav-link-text {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(8, 160, 248);
+}
+
+.imgContainer {
+    background-color: rgb(8, 160, 248);
+    border-radius: 25px;
+    padding: 40px;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.imgContainer > h1 {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.imgContainer > p {
+    color: aliceblue;
+    margin: 0;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.img {
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.contactInfo {
+    color: aliceblue;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactInfo > p {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.contactInfo > a {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(247, 247, 201);
+    padding: 0;
+    margin: 0;
+}
+
+
+.imgContainer > h1::before {
+    content: "hi";
+    position: absolute;
+    top: 65px;
+    left: -60px;
+    border-radius: 25px;
+    color: rgb(247, 247, 201);
+    padding: 190px;
+    background-color: rgb(247, 247, 201);
+    margin: 0;
+}
+
+.skillLinks {
+    text-decoration: none;
+    color: rgb(8, 160, 248);
+    background-color: rgb(247, 247, 201);
+    border: 2px solid rgb(8, 160, 248);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.imgDiv {
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 160, 248);
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 40%;
+}
+
+.imgDiv2 {
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 160, 248);
+    padding: 30px;
+    margin-left: 200px;
+}
+
+.mdxImg, .mdxImg2 {
+    border-radius: 25px;
+}
+
+.decoDiv {
+    position: absolute;
+    top: -10px;
+    left: -60px;
+    border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(247, 247, 201);
+}

@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `my-portfolio`,
+    title: `My Portfolio`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
@@ -16,8 +16,8 @@ module.exports = {
   }, {
     resolve: 'gatsby-source-filesystem',
     options: {
-      "name": "pages",
-      "path": "./src/pages/"
+      "name": `skills`,
+      "path": `${__dirname}/skills/`,
     },
     __key: "pages"
   }]
