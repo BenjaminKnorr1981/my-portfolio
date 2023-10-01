@@ -1,6 +1,9 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+const adapter = require("gatsby-adapter-netlify")
+
 module.exports = {
   siteMetadata: {
     title: `My Portfolio`,
@@ -20,5 +23,8 @@ module.exports = {
       "path": `${__dirname}/skills/`,
     },
     __key: "pages"
-  }]
+  }],
+  adapter: adapter({
+    excludeDatastoreFromEngineFunction: false,
+  }),
 };
