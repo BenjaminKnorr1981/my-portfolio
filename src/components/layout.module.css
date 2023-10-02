@@ -1,3 +1,7 @@
+body {
+    background-color: aliceblue;
+}
+
 .header {
     background-color: rgb(8, 160, 248);
     border-bottom-left-radius: 25px;

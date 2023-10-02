@@ -8,7 +8,7 @@ import {
   img
 } from '../components/layout.module.css'
 
-document.body.style.backgroundColor = "aliceblue";
+
 const IndexPage = () => {
   return (
     <main>
