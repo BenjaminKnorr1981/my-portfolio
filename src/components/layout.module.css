@@ -137,7 +137,7 @@ body {
     left: -60px;
     border-radius: 25px;
     color: rgb(247, 247, 201);
-    padding: 190px;
+    padding: 45%;
     background-color: rgb(247, 247, 201);
     margin: 0;
 }
@@ -189,4 +189,11 @@ body {
     height: 50%;
     width: 50%;
     background-color: rgb(247, 247, 201);
+}
+
+@media screen and (max-width: 610px) {
+    .imgContainer > h1::before {
+        padding: 35%;
+        top: 150px;
+    }
 }
